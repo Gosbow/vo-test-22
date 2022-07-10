@@ -1,0 +1,21 @@
+// Frage 12:
+
+// G... Graph
+// V... Vertex
+// E... Edge
+// w... weight
+
+s = start
+
+G(V,E,w)
+    if(V == undefined || E == undefined)
+        return
+    if(s == undefined)
+        return
+    if(w != 2)
+        G(V, E -> next, w)
+    if(V == s)
+        return true
+    else
+        G(V -> next, E, w)
+return false

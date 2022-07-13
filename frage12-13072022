@@ -1,0 +1,22 @@
+searchGraph(G(V,E,w),s):
+
+if s is not in V
+ return -1
+ else
+ return Search(V,s,w)
+
+ Search(V,E,w):
+
+// weiß = nicht besucht, grau = besucht, schwarz = fertig -> alle Kanten erledigt
+s = grau
+
+
+for i < alleausgehendeKanten()
+	if w == 2
+	
+     if v == t then
+         return t
+     if v == weiß then
+     	  v = grau
+          searchRecursive(G,v,t)
+     u = schwarz
